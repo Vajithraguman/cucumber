@@ -1,0 +1,178 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11865514600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To pass valid flipkart url",
+            "match": {
+              "location": "StepDefination.to_pass_valid_flipkart_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-13T16:33:55.274Z",
+        "line": 8,
+        "name": "",
+        "description": "    To validate username and passeword field using invalid password and username",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 425860700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To pass username and password",
+            "match": {
+              "location": "StepDefination.to_pass_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "vajith"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "8870"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88860700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click login field",
+            "match": {
+              "location": "StepDefination.click_login_field()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Flipkart"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8887384700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To pass valid flipkart url",
+            "match": {
+              "location": "StepDefination.to_pass_valid_flipkart_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-13T16:34:07.718Z",
+        "line": 16,
+        "name": "",
+        "description": "    To validate username and passeword field using invalid password and valid username",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 381531900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To pass valid username and password",
+            "match": {
+              "location": "StepDefination.to_pass_valid_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "vajith",
+                  "8870"
+                ]
+              },
+              {
+                "cells": [
+                  "raguman",
+                  "78685"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103445800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click login secondfield",
+            "match": {
+              "location": "StepDefination.click_login_secondfield()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Flipkart"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  To validate flipkart username and password",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Flip.feature",
+    "tags": [
+      {
+        "name": "@Flipkart",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
